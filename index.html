@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ4Ty5jmutWA3dsP0ZY2kpF_jbg8egZB75Gg&usqp=CAU">
+
+    <!-- font link copied from google fonts
+        Method 1) add the font link on head tag
+            Then copy the font style front from site then past it on css file.
+        Method 2) add the @import link from site and just past it on css file, then copy the font style and paste    -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&family=Libre+Baskerville&family=Ysabeau+SC&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Dancing+Script:wght@500&family=Libre+Baskerville&family=Lobster&family=Noto+Sans+Cypro+Minoan&family=Play&family=Poppins&family=Roboto:wght@100&family=Ysabeau+SC&display=swap" rel="stylesheet">
+
+<!-- accessing icons from font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+
+
+
+<div class="container" id="container">
+    <nav class="navbar">
+        <!-- image section -->
+        <img class="logo" src="./images/a-business-woman-who-explains-drawings_csp12051090.jpg" alt="logo">
+
+        <!-- list section -->
+        <ul>
+            <li class="linkitems"><a class="links" href="#home">Home</a></li> <!--  to navigate in the same page the value in href must be in id  -->
+            <li class="linkitems"><a class="links" href="#about">About</a></li>
+            <li class="linkitems"><a class="links" href="#skills">Skill</a></li>
+            <li class="linkitems"><a class="links" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- home -->
+     <section id="home"> <!-- section 1-->  <!--give the section id in href in navebar-->
+        <!-- contents -->
+        <div class="title">
+            <h1 class="title_h1">I'M Anz Mariya <space class="lastname">Davis</space></h1>
+            <P class="title_p">
+            This is my official portfolio website to describe all <br> Details and work experience in web Development.
+            </p>
+            <!-- 2 methords for download cv
+            -------------------------------
+                  1) copy the path from library and paste it in href
+                  2) copy the link from google drive(set on drive: more->share->share->Allow access to Anyone with the link)
+            -->
+            <a class="download" href="https://drive.google.com/file/d/1cCjy-ppLBecP-4DtHvdlllThi5JEIwmJ/view?usp=sharing" target="_blank" download="">DOWNLOAD CV</a>
+        </div>
+        <!-- image -->
+        <!-- Remove Background site- to remove background from image -->
+        <div class="images">
+            <img id="shape" src="./images/shape.png" alt="">
+            <img id="girl" src="./images/girl.png" alt="">
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about"><!--section 2 -->
+        <div class="heading">
+            <h2 >Aboute Me</h2>
+            <span>Introduction</span>
+        </div>
+        <div class="about_content">
+            <!-- images -->
+            <div class="about-image">
+                <img src="./images/about.avif" alt="">
+            </div>
+            <!-- content -->
+            <div class="about-details">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus non sit quisquam consequatur illo asperiores voluptatem corrupti laboriosam ullam, dolorum magni aperiam ea animi, sint porro vero fugiat unde vel?. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim itaque tenetur harum dolorem sit. Laboriosam vitae possimus eum magni dolorem iure nobis cupiditate ratione excepturi laudantium expedita veritatis, nisi architecto.
+                </p>
+                <div class="informations">
+                    <div class="info-box">
+                        <i class="fa-solid fa-user" style="color: #000000;"></i>
+                        <span>Anz Mariya Davis</span> <!-- span is for dispaly in inline -->
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-phone" style="color: #000000;"></i>
+                        <span>7025047112</span>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-envelope" style="color: #000000;"></i>
+                        <span>anzmariya256@gmail.com</span>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-brands fa-github" style="color: #000000;"></i>
+                        <span>Gitanz</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills">
+        
+            <div class="heading">
+                <h2>Skills</h2>
+                <span>My Skills</span>
+            </div>
+            <div class="skill_container">
+                <!-- progress -->
+                <div class="progress_bar">
+                    <div class="bar_container">
+                        <h3>HTML</h3>
+                        <span>95%</span>
+                        <div class="base_bar"></div>
+                        <div class="base_bar html-bar"></div>
+                    </div>
+                    <div class="bar_container">
+                        <h3>CSS</h3>
+                        <span>88%</span>
+                        <div class="base_bar"></div>
+                        <div class="base_bar css-bar"></div>
+                    </div>
+                    <div class="bar_container">
+                        <h3>JS</h3>
+                        <span>89%</span>
+                        <div class="base_bar"></div>
+                        <div class="base_bar js-bar"></div>
+                    </div>
+                    <div class="bar_container">
+                        <h3>REACT</h3>
+                        <span>85%</span>
+                        <div class="base_bar"></div>
+                        <div class="base_bar react-bar"></div>
+
+                    </div>
+                </div>
+                <!-- image -->
+                <div class="skill_img">
+                    <img src="./images/skills.webp" alt="image">
+                </div>
+            </div>
+    
+    </section>
+
+    <section id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>My Contact</span>
+        </div>
+        <div class="icon-set">
+            <div class="icons">
+                <div class="icon">
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+    
+                </div>                
+                <div class="icon">
+                     <a href="https://github.com/anzmariya" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+    
+                </div>
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/anzmariya-davis-9078b6183/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+    
+                </div>              
+                <div class="icon">
+                    <a href="https://www.facebook.com/login/" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="https://twitter.com/i/flow/login?lang=en" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p style="text-align: center;font-weight: bold;">&copy; My Portfolio Design 2023, All Rigths Reserved &reg; Anz Mariya Davis</p>
+        <div class="up-arrow">
+            <a href="#container"><i class="fa-solid fa-arrow-up fa-2x"></i></a>  
+        </div>
+    </footer>
+    <!-- Media query -->
+    
+
+
+</div>
+</body>
+</html>
